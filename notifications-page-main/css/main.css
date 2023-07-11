@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.container {
+  padding: 1em;
+  width: 30em;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.noti {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.num {
+  color: white;
+  padding-top: 0.1em;
+  padding-left: 0.6em;
+  width: 2em;
+  height: 1.5em;
+  margin-left: 1em;
+  margin-top: 0.8em;
+  border-radius: 0.5em;
+  background-color: hsl(219, 85%, 26%);
+}
+
+header p {
+  margin-top: 1em;
+  color: #676972;
+}
+
+img {
+  width: 2.5em;
+  height: 2.5em;
+  margin-right: 1em;
+}
+
+.notify {
+  display: flex;
+}
+
+.para {
+  display: inline-block;
+}
+
+.notify {
+  border-radius: 0.5em;
+  margin: 1em;
+  width: 27em;
+  height: 6em;
+  background-color: #f5f9fc;
+  padding: 1em 1em 0 1em;
+}
+
+.name span {
+  font-weight: 800;
+}
+
+.time {
+  color: #7d828c;
+}
+
+#span {
+  font-weight: 800;
+}
+
+#blue {
+  color: #000045;
+}
+#name {
+  color: black;
+  margin-right: 0.3em;
+}
+
+.notify p {
+  color: #666871;
+  line-height: 1.4rem;
+}
+
+.circle {
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #ff353d;
+  display: inline-block;
+  margin-left: 0.3em;
+}
+
+.notify:nth-of-type(4) {
+  height: 15em;
+  background-color: white;
+}
+
+.notify:nth-of-type(5) {
+  background-color: white;
+}
+.notify:nth-of-type(6) {
+  background-color: white;
+}
+.notify:nth-of-type(7) {
+  background-color: white;
+}
+
+.chatcol {
+  margin-top: 1em;
+  border: 1px solid #dde1e2;
+  border-radius: 0.5em;
+  height: 9em;
+  padding: 1em;
+  color: #9d9fa5;
+}
+
+.chatcol:hover {
+  cursor: pointer;
+  background-color: #e0eaf9;
+}
+
+header p:hover {
+  cursor: pointer;
+  color: #262e59;
+}
+#name:hover {
+  cursor: pointer;
+  color: #041851;
+}
+#span:hover {
+  cursor: pointer;
+  color: #041851;
+}
+#blue:hover {
+  cursor: pointer;
+  color: #041851;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    width: auto;
+    max-width: 1260px;
+  }
+
+  .notify {
+    width: auto;
+    max-width: 1260px;
+  }
+
+  .chatcol {
+    width: auto;
+  }
+
+  .chess {
+    margin-left: auto;
+  }
+}
